@@ -4,5 +4,5 @@ export interface Student {
     lastName: string;
     date_of_delivery: Date;
     qualification: number;
-    isApproved: boolean;
+    isApproved?: boolean;
 }

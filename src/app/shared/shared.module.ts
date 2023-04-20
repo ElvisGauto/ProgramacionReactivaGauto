@@ -6,12 +6,10 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { MaterialModule } from './material/material.module';
 import { PipesModule } from './pipes/pipes.module';
 import { DirectivesModule } from './directives/directives.module';
-import { SpinnerComponent } from './components/spinner/spinner.component';
 
 const COMPONENTS = [
   NavbarComponent,
-  ToolbarComponent,
-  SpinnerComponent
+  ToolbarComponent
 ];
 
 @NgModule({
@@ -20,7 +18,7 @@ const COMPONENTS = [
     CommonModule,
     MaterialModule,
     PipesModule,
-    DirectivesModule,
+    DirectivesModule
   ],
   exports: COMPONENTS
 })
